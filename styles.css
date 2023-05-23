@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.celda{
+  width: 150px;
+  height: 150px;
+  margin-right: 4px;
+  border: 1px solid rgb(187, 45, 45);
+  display: inline-block;
+  text-align: center;
+  line-height: 150px;
+  font-size: 4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.celda-activa{
+  background-color: rgb(149, 187, 45);
+  color: white;
+}
+
+#tablero{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  width: 464px;
+  height: 464px;
+  margin: 0 auto;
+  margin-top: 50px;
+  /* border:2px solid black; */
+  /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
+}
+
+#jugadores{
+  width: 604px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border:2px solid black; */
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+#jugadores > botton{
+  width: 300px;
+  height: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+  cursor: pointer;
+}
+
+#reiniciar{
+  width: 110px;
+  height: 50px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+  cursor: pointer;
+  border-radius: 15📮 ;
+}
