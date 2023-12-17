@@ -24,9 +24,7 @@ const comprobarGanador = () => {
       contenidoA !== ""
     ) {
       juegoTerminado = true;
-      setTimeout(() => {
-        alert(`Ganó ${contenidoA}`);
-      }, 0);
+      alert(`Ganó ${contenidoA}`);
       return; // Terminar la función si hay un ganador
     }
   }
@@ -54,8 +52,6 @@ for (let i = 0; i < celdas.length; i++) {
   });
 }
 
-
-
 // Reiniciar juego
 const btnReiniciar = document.getElementById("reiniciar");
 btnReiniciar.addEventListener("click", function () {
@@ -66,3 +62,5 @@ btnReiniciar.addEventListener("click", function () {
   turno = 1;
   juegoTerminado = false;
 });
+
+
